@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <title>Rysunkownik</title>
+    </head>
+    <body>
+        <div class="container">
+            <canvas id="canv">
+                Jeśli widzisz ten tekst, oznacza to, że Canvas u ciebie nie działa!
+            </canvas>
+
+            <div class="tools">
+                <div class="colors">
+                    <div class="color" data-clr="#000000" style="background-color: black;"></div>
+                    <div class="color" data-clr="#ffffff" style="background-color: white;"></div>
+                    <div class="color" data-clr="#ff0000" style="background-color: red;"></div>
+                    <div class="color" data-clr="#0000ff" style="background-color: blue;"></div>
+                    <div class="color" data-clr="#008000" style="background-color: green;"></div>
+                    <div class="color" data-clr="#ffff00" style="background-color: yellow;"></div>
+                    <div class="color" data-clr="#00ff00" style="background-color: lime"></div>
+                    <div class="color" data-clr="#ffa500" style="background-color: orange;"></div>
+                    <div class="color" data-clr="#808080" style="background-color: grey;"></div>
+                </div>
+
+                <select class="menu" id="thickness">
+                    <option value="1" class="thick">Grubość linii: 1</option>
+                    <option value="2" class="thick">Grubość linii: 2</option>
+                    <option value="3" class="thick">Grubość linii: 3</option>
+                    <option value="4" class="thick">Grubość linii: 4</option>
+                    <option value="5" class="thick">Grubość linii: 5</option>
+                    <option value="6" class="thick">Grubość linii: 6</option>
+                    <option value="7" class="thick">Grubość linii: 7</option>
+                    <option value="8" class="thick">Grubość linii: 8</option>
+                    <option value="9" class="thick">Grubość linii: 9</option>
+                    <option value="10" class="thick">Grubość linii: 10</option>
+                  </select>
+
+            </div>
+
+            <button id="clear">Clear</button>
+        </div>
+    </body>
+</html>

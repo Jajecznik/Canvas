@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 10px;
+}
+
+#canv {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    margin-top: 10px;
+    height: 30px;
+}
+
+.colors {
+    display: grid;
+    grid-template-rows: repeat(3, 10vh);
+    grid-template-columns: repeat(3, 20vw);
+    margin-top: 10px;
+}
+
+.color {
+    border: 1px solid black;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+#clear {
+    margin: 10px 0;
+    width: 50px;
+    height: 20px;
+}
